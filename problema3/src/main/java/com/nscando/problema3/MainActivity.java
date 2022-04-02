@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Toast al iniciar la app
+        //Toast al iniciar la app mostrando num random
         Toast toast = Toast.makeText(this, "El Numero Random es " + numRandom, Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
