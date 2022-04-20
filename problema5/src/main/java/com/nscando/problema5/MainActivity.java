@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void calcular(View view) {
+    public void calcular(View view ) {
 
         int valorDolar = 203;
         int valorEuro = 255;
